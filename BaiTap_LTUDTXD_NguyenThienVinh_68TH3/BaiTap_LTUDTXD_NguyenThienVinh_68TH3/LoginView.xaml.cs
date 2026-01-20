@@ -10,26 +10,18 @@ using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
 using System.Windows.Shapes;
 
 namespace BaiTap_LTUDTXD_NguyenThienVinh_68TH3
 {
     /// <summary>
-    /// Interaction logic for MainWindow.xaml
+    /// Interaction logic for LoginView.xaml
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class LoginView : Window
     {
-        public MainWindow()
+        public LoginView()
         {
             InitializeComponent();
-        }
-
-        private void login_click(object sender, RoutedEventArgs e)
-        {
-            LoginView btnlogin_click = new LoginView();
-            btnlogin_click.Show();
-            this.Close();
         }
     }
 }
